@@ -20,7 +20,26 @@ Under Networking --> Wireless, enable everything for cfg80211, this is an import
 8. Save the config and exit.
 9. Run the kbuild command and wait for the kernel to complete, it will say done when it is finished.
 it should look like...
+```
 kernel install...
-/PATH LOCATION/
+cp /home/raf/Downloads/out/KERNEL/arch/arm64/boot/Image /home/raf/Downloads/Xavier/Linux_for_Tegra/kernel/
+cp /home/raf/Downloads/out/KERNEL/arch/arm64/boot/dts ...
+...
 Done
+```
 10. After that simply run flash_kernel, make sure your Jetson is in bootloader mode and you are done.
+When it is flashing you should see this:
+```
+flash_kernel 
+sudo ./flash.sh -k kernel jetson-xavier mmcblk0p1
+###############################################################################
+# Target Board Information:
+# Name: jetson-xavier, Board Family: t186ref, SoC: Tegra 194, 
+# OpMode: production, Boot Authentication: , 
+###############################################################################
+copying soft_fuses(/home/raf/Downloads/Xavier/Linux_for_Tegra/bootloader/t186ref/BCT/tegra194-mb1-soft-fuses-l4t.cfg)... done.
+./tegraflash.py --chip 0x19 --applet "/home/raf/Downloads/Xavier/Linux_for_Tegra/bootloader/mb1_t194_prod.bin" --skipuid --soft_fuses tegra194-mb1-soft-fuses-l4t.cfg --bins "mb2_applet nvtboot_applet_t194.bin" --cmd "dump eeprom boardinfo cvm.bin;reboot recovery" 
+Welcome to Tegra Flash
+version 1.0.0
+...
+```
