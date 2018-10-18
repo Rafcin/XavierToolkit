@@ -43,3 +43,4 @@ Welcome to Tegra Flash
 version 1.0.0
 ...
 ```
+As a final check, run sudo nmcli and it will display the driver no longer as USB0 but as wlan0.
