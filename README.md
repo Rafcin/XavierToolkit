@@ -1,5 +1,8 @@
 # XavierToolkit
 Repo created to host scripts that can be used to fix problems on Jetson Xavier Jetpack 4.1 and on.
+### Todo
+1. Will create script to compile on device, not recomended but will add just in case.
+2. Will improve the flashing script and make loading modules easier.
 
 ## USB-WIFI
 By default USB-WIFI dongles do not work on the Jetson Xavier. How I fixed it was this way, and I use a 
