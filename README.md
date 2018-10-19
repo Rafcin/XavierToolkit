@@ -44,3 +44,16 @@ version 1.0.0
 ...
 ```
 As a final check, run sudo nmcli and it will display the driver no longer as USB0 but as wlan0.
+
+## USB Camera Devices
+Like above, compile V4L2 as Y.
+```
+Device Drivers -> Multimedia Support -> Media USB Adapters -> USB Video Class V4L2
+```
+
+## Resources
+Jetson Flashing
+https://github.com/jtagxhub/jetpack-agx-build
+Video
+https://unix.stackexchange.com/questions/114902/install-kernel-module-v4l2
+https://github.com/torvalds/linux/blob/master/drivers/usb/serial/ch341.c
