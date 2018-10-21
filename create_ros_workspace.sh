@@ -2,6 +2,8 @@
 # Create a Catkin Workspace and setup ROS environment variables
 # Usage setupCatkinWorkspace.sh dirName
 
+#Modified version of JetsonHacks script
+
 source /opt/ros/melodic/setup.bash
 DEFAULTDIR=~/yokai_ws
 CLDIR="$1"
