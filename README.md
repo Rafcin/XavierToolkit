@@ -118,6 +118,11 @@ When you look for packages to later install, note that the ROS wiki is the best 
 For more informatin look here to see how ROS works and how you can use it.
 http://wiki.ros.org/ROS/Tutorials
 
+If you want to see the set paths you have exported for ROS run:
+```
+env | grep ROS
+```
+
 ##### Errors and Bugs
 If you run into problems such as certain modules missing, you may either have to sudo ap-get install {pkg name} each one or if that fails to work, use pip install {pkg name}. Pip comes from Python, you should have Python 3.6 and 2.7 installed, 3.6 is the one we will be using so keep that in mind. Also do note running pip will run it under 3.6 while running pip2 will run it under 2.7.
 An example of using pip to install something is sphinx, if sphinx wont run after being installed with apt, install it with pip.
