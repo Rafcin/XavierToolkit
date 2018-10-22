@@ -60,6 +60,12 @@ version 1.0.0
 ```
 As a final check, run sudo nmcli and it will display the driver no longer as USB0 but as wlan0.
 
+## Internet Speed Issue
+By default packets are being throttled and sent in smaller values so to fix this run:
+```
+echo "options iwlwifi 11n_disable=8" | sudo tee -a /etc/modprobe.d/iwlwifi.conf
+```
+
 ## USB Camera Devices
 Like above, compile V4L2 as Y.
 ```
