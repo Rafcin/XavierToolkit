@@ -1,5 +1,6 @@
 # XavierToolkit
 Repo created to host scripts that can be used to fix problems on Jetson Xavier Jetpack 4.1 and on.
+Also contains instructions on setting up a ROS workspace for Robotics
 
 # Hardware
 |[![Jetson Xavier](https://a70ad2d16996820e6285-3c315462976343d903d5b3a03b69072d.ssl.cf2.rackcdn.com/61793ea59a38edb4cfd56b473e3f4e98 "Jetson Xavier")](https://developer.nvidia.com/embedded/buy/jetson-xavier-devkit "Jetson Xavier")|[![TP-Link Wireless-N300 Mini USB Adapter](https://matrixwarehouse.co.za/1702-large_default/tp-link-300mbps-n-mini-usb-adapter.jpg "TP-Link Wireless-N300 Mini USB Adapter")](https://www.tp-link.com/us/products/details/cat-5520_TL-WN823N.html "TP-Link Wireless-N300 Mini USB Adapter")|![XPG SX6000 128GB M.2 PCIe NVMe](https://www.storagereview.com/images/StorageReview-ADATA-XPG.jpg "XPG SX6000 128GB M.2 PCIe NVMe")|
