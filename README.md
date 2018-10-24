@@ -3,6 +3,7 @@ Repo created to host scripts that can be used to fix problems on Jetson Xavier J
 Also contains instructions on setting up a ROS workspace for Robotics
 
 Check the Wiki page for more information!
+[XavierToolkit Wiki](https://github.com/Rafcin/XavierToolkit/wiki "XavierToolkit Wiki")
 
 ## Resources
 1. Jetsonhacks https://github.com/jetsonhacks/installROSTX2
